@@ -104,7 +104,7 @@ local PredictionValue = 0.1413
                 if Settings.rewrittenmain.NOTIF == true then
                     Plr = getClosestPlayerToCursor()
                 game.StarterGui:SetCore("SendNotification", {
-                    Title = "";
+                    Title = "LoadZ.cc";
                     Text = "Unlocked :)",
                     Duration = 5
                 })
@@ -115,7 +115,7 @@ local PredictionValue = 0.1413
                 if Settings.rewrittenmain.NOTIF == true then
 
                     game.StarterGui:SetCore("SendNotification", {
-                        Title = "";
+                        Title = "LoadZ.cc";
                         Text = "Target: "..tostring(Plr.Character.Humanoid.DisplayName),
                         Duration = 5
                     })
